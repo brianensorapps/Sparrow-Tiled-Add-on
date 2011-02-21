@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		4B40B1FF12DEA7D600D22D5F /* libSparrow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B40B1FC12DEA7CF00D22D5F /* libSparrow.a */; };
+		4B6131E812E0053C00B94FF6 /* Screen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6131E712E0053C00B94FF6 /* Screen.m */; };
+		4B94850013124D9600517D90 /* STLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484F413124D9600517D90 /* STLayer.m */; };
+		4B94850113124D9600517D90 /* STMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484F613124D9600517D90 /* STMap.m */; };
+		4B94850213124D9600517D90 /* STTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484F813124D9600517D90 /* STTile.m */; };
+		4B94850313124D9600517D90 /* STTileset.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484FA13124D9600517D90 /* STTileset.m */; };
+		4B94850413124D9600517D90 /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484FD13124D9600517D90 /* NSDataAdditions.m */; };
+		4B94850513124D9600517D90 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B9484FF13124D9600517D90 /* TBXML.m */; };
+		4B94850A13124DF100517D90 /* sewer_tileset.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B94850813124DF100517D90 /* sewer_tileset.png */; };
+		4B94850B13124DF100517D90 /* sewers.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 4B94850913124DF100517D90 /* sewers.tmx */; };
+		4B94852413124E6700517D90 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B94852313124E6700517D90 /* libz.dylib */; };
+		4BE5145A12BC58620079894A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE5145912BC58620079894A /* AudioToolbox.framework */; };
+		4BE5145E12BC586A0079894A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE5145D12BC586A0079894A /* AVFoundation.framework */; };
+		4BE5146212BC58710079894A /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE5146112BC58710079894A /* OpenAL.framework */; };
+		4BE5146612BC58780079894A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE5146512BC58780079894A /* OpenGLES.framework */; };
+		4BE5146A12BC587D0079894A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BE5146912BC587D0079894A /* QuartzCore.framework */; };
+		4BE5147212BC592C0079894A /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE5147112BC592C0079894A /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B40B1FB12DEA7CF00D22D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEFE4BC2101B317600E22471;
+			remoteInfo = Sparrow;
+		};
+		4B40B1FD12DEA7CF00D22D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = DEEA9335101E32A30071DD21;
+			remoteInfo = UnitTests;
+		};
+		4B40B20212DEA7E200D22D5F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = DEFE4BC1101B317600E22471;
+			remoteInfo = Sparrow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SimpleMapViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMapViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SimpleMapViewer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMapViewer_Prefix.pch; sourceTree = "<group>"; };
+		4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Sparrow.xcodeproj; sourceTree = SPARROW_v1.1_SRC; };
+		4B6131E612E0053C00B94FF6 /* Screen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Screen.h; sourceTree = "<group>"; };
+		4B6131E712E0053C00B94FF6 /* Screen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Screen.m; sourceTree = "<group>"; };
+		4B9484F213124D9600517D90 /* SparrowTiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SparrowTiled.h; sourceTree = "<group>"; };
+		4B9484F313124D9600517D90 /* STLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STLayer.h; sourceTree = "<group>"; };
+		4B9484F413124D9600517D90 /* STLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STLayer.m; sourceTree = "<group>"; };
+		4B9484F513124D9600517D90 /* STMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STMap.h; sourceTree = "<group>"; };
+		4B9484F613124D9600517D90 /* STMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STMap.m; sourceTree = "<group>"; };
+		4B9484F713124D9600517D90 /* STTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTile.h; sourceTree = "<group>"; };
+		4B9484F813124D9600517D90 /* STTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTile.m; sourceTree = "<group>"; };
+		4B9484F913124D9600517D90 /* STTileset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STTileset.h; sourceTree = "<group>"; };
+		4B9484FA13124D9600517D90 /* STTileset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STTileset.m; sourceTree = "<group>"; };
+		4B9484FC13124D9600517D90 /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		4B9484FD13124D9600517D90 /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		4B9484FE13124D9600517D90 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		4B9484FF13124D9600517D90 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		4B94850813124DF100517D90 /* sewer_tileset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sewer_tileset.png; sourceTree = "<group>"; };
+		4B94850913124DF100517D90 /* sewers.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = sewers.tmx; sourceTree = "<group>"; };
+		4B94852313124E6700517D90 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4BE5145912BC58620079894A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4BE5145D12BC586A0079894A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4BE5146112BC58710079894A /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4BE5146512BC58780079894A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4BE5146912BC587D0079894A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4BE5147012BC592C0079894A /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		4BE5147112BC592C0079894A /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SimpleMapViewer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleMapViewer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B40B1FF12DEA7D600D22D5F /* libSparrow.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				4BE5145A12BC58620079894A /* AudioToolbox.framework in Frameworks */,
+				4BE5145E12BC586A0079894A /* AVFoundation.framework in Frameworks */,
+				4BE5146212BC58710079894A /* OpenAL.framework in Frameworks */,
+				4BE5146612BC58780079894A /* OpenGLES.framework in Frameworks */,
+				4BE5146A12BC587D0079894A /* QuartzCore.framework in Frameworks */,
+				4B94852413124E6700517D90 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4B9484F113124D9600517D90 /* SparrowTiled */,
+				1D3623240D0F684500981E51 /* AppDelegate.h */,
+				1D3623250D0F684500981E51 /* AppDelegate.m */,
+				4BE5147012BC592C0079894A /* Game.h */,
+				4BE5147112BC592C0079894A /* Game.m */,
+				4B6131E612E0053C00B94FF6 /* Screen.h */,
+				4B6131E712E0053C00B94FF6 /* Screen.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SimpleMapViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				4BE5145912BC58620079894A /* AudioToolbox.framework */,
+				4BE5145D12BC586A0079894A /* AVFoundation.framework */,
+				4BE5146112BC58710079894A /* OpenAL.framework */,
+				4BE5146512BC58780079894A /* OpenGLES.framework */,
+				4BE5146912BC587D0079894A /* QuartzCore.framework */,
+				4B94852313124E6700517D90 /* libz.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SimpleMapViewer_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B94850713124DF100517D90 /* Maps */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SimpleMapViewer-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B40B1F712DEA7CF00D22D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B40B1FC12DEA7CF00D22D5F /* libSparrow.a */,
+				4B40B1FE12DEA7CF00D22D5F /* UnitTest.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B9484F113124D9600517D90 /* SparrowTiled */ = {
+			isa = PBXGroup;
+			children = (
+				4B9484F213124D9600517D90 /* SparrowTiled.h */,
+				4B9484F313124D9600517D90 /* STLayer.h */,
+				4B9484F413124D9600517D90 /* STLayer.m */,
+				4B9484F513124D9600517D90 /* STMap.h */,
+				4B9484F613124D9600517D90 /* STMap.m */,
+				4B9484F713124D9600517D90 /* STTile.h */,
+				4B9484F813124D9600517D90 /* STTile.m */,
+				4B9484F913124D9600517D90 /* STTileset.h */,
+				4B9484FA13124D9600517D90 /* STTileset.m */,
+				4B9484FB13124D9600517D90 /* TBXML */,
+			);
+			name = SparrowTiled;
+			path = ../../source;
+			sourceTree = SOURCE_ROOT;
+		};
+		4B9484FB13124D9600517D90 /* TBXML */ = {
+			isa = PBXGroup;
+			children = (
+				4B9484FC13124D9600517D90 /* NSDataAdditions.h */,
+				4B9484FD13124D9600517D90 /* NSDataAdditions.m */,
+				4B9484FE13124D9600517D90 /* TBXML.h */,
+				4B9484FF13124D9600517D90 /* TBXML.m */,
+			);
+			path = TBXML;
+			sourceTree = "<group>";
+		};
+		4B94850713124DF100517D90 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				4B94850813124DF100517D90 /* sewer_tileset.png */,
+				4B94850913124DF100517D90 /* sewers.tmx */,
+			);
+			name = Maps;
+			path = ../../Samples/SimpleMapViewer/Resources/Maps;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SimpleMapViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleMapViewer" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B40B20312DEA7E200D22D5F /* PBXTargetDependency */,
+			);
+			name = SimpleMapViewer;
+			productName = Sparrow;
+			productReference = 1D6058910D05DD3D006BFB54 /* SimpleMapViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Shilocity Productions";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleMapViewer" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4B40B1F712DEA7CF00D22D5F /* Products */;
+					ProjectRef = 4B40B1F112DEA7CF00D22D5F /* Sparrow.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SimpleMapViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4B40B1FC12DEA7CF00D22D5F /* libSparrow.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSparrow.a;
+			remoteRef = 4B40B1FB12DEA7CF00D22D5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4B40B1FE12DEA7CF00D22D5F /* UnitTest.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTest.octest;
+			remoteRef = 4B40B1FD12DEA7CF00D22D5F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				4B94850A13124DF100517D90 /* sewer_tileset.png in Resources */,
+				4B94850B13124DF100517D90 /* sewers.tmx in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* AppDelegate.m in Sources */,
+				4BE5147212BC592C0079894A /* Game.m in Sources */,
+				4B6131E812E0053C00B94FF6 /* Screen.m in Sources */,
+				4B94850013124D9600517D90 /* STLayer.m in Sources */,
+				4B94850113124D9600517D90 /* STMap.m in Sources */,
+				4B94850213124D9600517D90 /* STTile.m in Sources */,
+				4B94850313124D9600517D90 /* STTileset.m in Sources */,
+				4B94850413124D9600517D90 /* NSDataAdditions.m in Sources */,
+				4B94850513124D9600517D90 /* TBXML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B40B20312DEA7E200D22D5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Sparrow;
+			targetProxy = 4B40B20212DEA7E200D22D5F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleMapViewer_Prefix.pch;
+				INFOPLIST_FILE = "SimpleMapViewer-Info.plist";
+				PRODUCT_NAME = SimpleMapViewer;
+				USER_HEADER_SEARCH_PATHS = "${SPARROW_v1.1_SRC}/**";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SimpleMapViewer_Prefix.pch;
+				INFOPLIST_FILE = "SimpleMapViewer-Info.plist";
+				PRODUCT_NAME = SimpleMapViewer;
+				USER_HEADER_SEARCH_PATHS = "${SPARROW_v1.1_SRC}/**";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shilo White";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB6CA8F2-9906-4B60-8226-C638D8BCFB66";
+				SDKROOT = iphoneos4.1;
+				USER_HEADER_SEARCH_PATHS = "${SPARROW_v1.1_SRC}/**";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Shilo White";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CB6CA8F2-9906-4B60-8226-C638D8BCFB66";
+				SDKROOT = iphoneos4.1;
+				USER_HEADER_SEARCH_PATHS = "${SPARROW_v1.1_SRC}/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SimpleMapViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SimpleMapViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

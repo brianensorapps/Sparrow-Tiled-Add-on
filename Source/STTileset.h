@@ -1,0 +1,38 @@
+//
+//  STTileset.h
+//  SparrowTiled
+//
+//  Created by Shilo White on 2/19/11.
+//  Copyright 2011 Shilocity Productions. All rights reserved.
+//
+//  This program is free software; you can redistribute it and/or modify
+//  it under the terms of the Simplified BSD License.
+//
+
+#import <Foundation/Foundation.h>
+#import "SPTextureAtlas.h"
+@class SPTexture;
+
+@interface STTileset : SPTextureAtlas {
+	NSString *mName;
+	NSString *mFilename;
+	int mFirstGID;
+	int mTileWidth;
+	int mTileHeight;
+	NSString *mTransparentColor;
+	int mWidth;
+	int mHeight;
+}
+
+@property (nonatomic, assign, readonly) NSString *name;
+@property (nonatomic, assign, readonly) NSString *filename;
+@property (nonatomic, assign, readonly) int firstGID;
+@property (nonatomic, assign, readonly) int tileWidth;
+@property (nonatomic, assign, readonly) int tileHeight;
+@property (nonatomic, assign, readonly) NSString *transparentColor;
+@property (nonatomic, assign, readonly) int width;
+@property (nonatomic, assign, readonly) int height;
+
+- (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight transparentColor:(NSString *)transparentColor width:(int)width height:(int)height;
+- (SPTexture *)textureByGID:(int)gid;
+@end
