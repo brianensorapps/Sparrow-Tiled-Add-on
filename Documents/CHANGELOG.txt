@@ -1,0 +1,18 @@
+==========================
+== Sparrow Tiled Add-on ==
+== Version: 0.0.2       ==
+==========================
+- Added STLayer/STMap Viewpoint methods
+  * panning, scrolling, centering
+- Fixed a few bugs
+- Made a few changes
+
+==========================
+== Version: 0.0.1       ==
+==========================
+- Added STMap class
+- Added STLayer class
+- Added STTileset class
+- Added STTile class
+- Setup basic framework
+- Created sample "SimpleMapViewer" project

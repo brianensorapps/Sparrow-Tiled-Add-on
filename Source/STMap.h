@@ -3,7 +3,7 @@
 //  SparrowTiled
 //
 //  Created by Shilo White on 2/19/11.
-//  Copyright 2011 Shilocity Productions. All rights reserved.
+//  Copyright 2011 Shilocity Productions & Brian Ensor Apps. All rights reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the Simplified BSD License.
@@ -12,6 +12,7 @@
 #import <Foundation/Foundation.h>
 @class STTileset;
 @class STLayer;
+@class STTile;
 
 @interface STMap : NSObject {
 	NSString *mFilename;
@@ -42,4 +43,18 @@
 - (id)initWithTMXFile:(NSString *)filename;
 + (STMap *)mapWithTMXFile:(NSString *)filename;
 - (STLayer *)layerByName:(NSString *)name;
+- (void)centerViewToX:(float)x y:(float)y;
+- (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
+- (void)centerViewToTile:(STTile *)tile;
+- (void)centerViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
+- (void)panViewByX:(float)x y:(float)y;
+- (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds;
+- (void)scrollViewToX:(float)x y:(float)y;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
+- (void)scrollViewToTile:(STTile *)tile;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
 @end

@@ -3,7 +3,7 @@
 //  SparrowTiled
 //
 //  Created by Shilo White on 2/19/11.
-//  Copyright 2011 Shilocity Productions. All rights reserved.
+//  Copyright 2011 Shilocity Productions & Brian Ensor Apps. All rights reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the Simplified BSD License.
@@ -17,14 +17,8 @@
 @synthesize gid = mGID;
 
 - (id)initWithGID:(int)gid texture:(SPTexture *)texture {
-	if (texture) {
-		if (self = [super initWithTexture:texture]) {
-			mGID = gid;
-		}
-	} else {
-		if (self = [super init]) {
-			mGID = gid;
-		}
+	if (self = [super initWithTexture:texture]) {
+		mGID = gid;
 	}
 	return self;
 }

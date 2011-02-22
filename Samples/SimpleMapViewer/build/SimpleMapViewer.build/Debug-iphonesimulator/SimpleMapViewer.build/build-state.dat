@@ -1,0 +1,1033 @@
+TSimpleMapViewer
+v7
+r0
+t320053949.248818
+cCheck dependencies
+cProcessInfoPlistFile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/Info.plist SimpleMapViewer-Info.plist
+cCompileXIB /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib
+cCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/sewer_tileset.png ../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png
+cCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/sewers.tmx ../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx
+cCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/desert.tmx ../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx
+cCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png ../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png
+cProcessPCH /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch.gch SimpleMapViewer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/main.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/AppDelegate.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Game.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Screen.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STLayer.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STMap.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTile.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTileset.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/NSDataAdditions.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/TBXML.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer normal i386
+cGenerateDSYMFile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer
+cTouch /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c000000004C5A5EAD00000000000D2090
+t1280990893
+s860304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000004C5A4D1600000000001E06E0
+t1280986390
+s1967840
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenAL.framework/OpenAL
+c000000004C5A4D4200000000000244B0
+t1280986434
+s148656
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/EAGL.h
+c000000004C5A4E4D000000000000094F
+t1280986701
+s2383
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/gl.h
+c000000004C5A4E4D0000000000009369
+t1280986701
+s37737
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES1/glext.h
+c000000004C5A4E4D0000000000003C4A
+t1280986701
+s15434
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000004C5A4E570000000000019D60
+t1280986711
+s105824
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004C5A505200000000000000C4
+t1280987218
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004C5A50EF0000000000154E50
+t1280987375
+s1396304
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/zlib.h
+c000000004C5A494E00000000000102A5
+t1280985422
+s66213
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libz.dylib
+c000000004C5A495000000000000123E0
+t1280985424
+s74720
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx
+c000000004D631D960000000000007E61
+t1298341270
+s32353
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png
+c000000004D40B23100000000000056E9
+t1296085553
+s22249
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx
+c000000004D63273F0000000000017EB2
+t1298343743
+s97970
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png
+c000000004D40B23100000000000093C6
+t1296085553
+s37830
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.h
+c000000004D6369AB00000000000008EF
+t1298360747
+s2287
+i<Foundation/Foundation.h>
+i"SPSprite.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m
+c000000004D636A1900000000000016F6
+t1298360857
+s5878
+i"STLayer.h"
+i"STTileset.h"
+i"STTile.h"
+i"SPTexture.h"
+i"SPImage.h"
+i"SPRenderTexture.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.h
+c000000004D636A370000000000000926
+t1298360887
+s2342
+i<Foundation/Foundation.h>
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m
+c000000004D636ABE000000000000219C
+t1298361022
+s8604
+i"STMap.h"
+i"TBXML.h"
+i"NSDataAdditions.h"
+i"SPTexture.h"
+i"STTileset.h"
+i"STLayer.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.h
+c000000004D6366F30000000000000208
+t1298360051
+s520
+i<Foundation/Foundation.h>
+i"SPImage.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m
+c000000004D6366F30000000000000234
+t1298360051
+s564
+i"STTile.h"
+i"SPTexture.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.h
+c000000004D6366F300000000000005AF
+t1298360051
+s1455
+i<Foundation/Foundation.h>
+i"SPTextureAtlas.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m
+c000000004D6366F30000000000000798
+t1298360051
+s1944
+i"STTileset.h"
+i"SPTexture.h"
+i"SPRectangle.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/SparrowTiled.h
+c000000004D6366CA000000000000019F
+t1298360010
+s415
+i"STMap.h"
+i"STTileset.h"
+i"STLayer.h"
+i"STTile.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.h
+c000000004BF3E1060000000000000A67
+t1274274054
+s2663
+i<Foundation/Foundation.h>
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m
+c000000004BF3E10600000000000025EE
+t1274274054
+s9710
+i"NSDataAdditions.h"
+i<zlib.h>
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.h
+c000000004BF3E10600000000000012D1
+t1274274054
+s4817
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m
+c000000004BF3E10600000000000046DA
+t1274274054
+s18138
+i"TBXML.h"
+i"NSDataAdditions.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.h
+c000000004D6366F300000000000001B5
+t1298360051
+s437
+i<UIKit/UIKit.h>
+i"Sparrow.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m
+c000000004D6366F3000000000000080A
+t1298360051
+s2058
+i"AppDelegate.h"
+i"Game.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.h
+c000000004D6366F3000000000000018F
+t1298360051
+s399
+i<Foundation/Foundation.h>
+i"Sparrow.h"
+i"SparrowTiled.h"
+i"Screen.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m
+c000000004D636B3C00000000000006A3
+t1298361148
+s1699
+i"Game.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.h
+c000000004D6366F300000000000001DD
+t1298360051
+s477
+i"Sparrow.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m
+c000000004D6366F30000000000000B88
+t1298360051
+s2952
+i"Screen.h"
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib
+c000000004D0FF26F0000000000004EBA
+t1292890735
+s20154
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/SimpleMapViewer_Prefix.pch
+c000000004D0C1D4100000000000000B7
+t1292639553
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app
+t1298361149
+s340
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM
+t1298361149
+s102
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/Info.plist
+t1298348978
+s656
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/MainWindow.nib
+t1298348979
+s1842
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/PkgInfo
+t1298348978
+s8
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer
+t1298361149
+s612336
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/desert.tmx
+t1298348978
+s32353
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/desert2.tmx
+t1298342251
+s32353
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/sewer_tileset.png
+t1298348978
+s22249
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/sewers.tmx
+t1298348978
+s97970
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png
+t1298348978
+s37830
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/AppDelegate.o
+t1298361004
+s55052
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Game.o
+t1298361149
+s18756
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/NSDataAdditions.o
+t1298348979
+s17700
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STLayer.o
+t1298360861
+s34128
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STMap.o
+t1298361023
+s43180
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTile.o
+t1298360051
+s9376
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTileset.o
+t1298360051
+s17552
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Screen.o
+t1298360051
+s24756
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/SimpleMapViewer.LinkFileList
+c000000004D633BB200000000000007BE
+t1298348978
+s1982
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/TBXML.o
+t1298348979
+s37316
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/main.o
+t1298348979
+s6416
+
+N/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m
+c000000004D0C1D410000000000000169
+t1292639553
+s361
+i<UIKit/UIKit.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHButton.h
+c000000004D3F8AC60000000000000F04
+t1296009926
+s3844
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHCircle.h
+c000000004D437ACB00000000000005D1
+t1296267979
+s1489
+i"SPDisplayObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHInputField.h
+c000000004D5623C60000000000000365
+t1297490886
+s869
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i"SPTextField.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHJoystick.h
+c000000004D57B3EA0000000000000BC3
+t1297593322
+s3011
+i"SPDisplayObjectContainer.h"
+i"SPEvent.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHLine.h
+c000000004D2E425A0000000000000621
+t1294877274
+s1569
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+i"SPRenderSupport.h"
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHMotionBlurSprite.h
+c000000004D3BC312000000000000061F
+t1295762194
+s1567
+i"SPSprite.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHPolygon.h
+c000000004D51E7E10000000000000607
+t1297213409
+s1543
+i"SPDisplayObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SHThumbstick.h
+c000000004D58CFA600000000000009E0
+t1297665958
+s2528
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+i"SPEvent.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPAnimatable.h
+c000000004D28DDAE0000000000000399
+t1294523822
+s921
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPAudioEngine.h
+c000000004D28DDAE0000000000000999
+t1294523822
+s2457
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPBitmapChar.h
+c000000004D28DDAE00000000000006A7
+t1294523822
+s1703
+i<Foundation/Foundation.h>
+i"SPImage.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPBitmapFont.h
+c000000004D28DDAE0000000000000BA0
+t1294523822
+s2976
+i<Foundation/Foundation.h>
+i"SPBitmapChar.h"
+i"SPTextField.h"
+i"SPMacros.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPButton.h
+c000000004D3D22C50000000000000E1A
+t1295852229
+s3610
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPDelayedInvocation.h
+c000000004D28DDAE00000000000006A1
+t1294523822
+s1697
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPDisplayObject.h
+c000000004D5F848F0000000000001CD1
+t1298105487
+s7377
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPRectangle.h"
+i"SPMatrix.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPDisplayObjectContainer.h
+c000000004D44AFBF0000000000000ED6
+t1296347071
+s3798
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPEnterFrameEvent.h
+c000000004D28DDAE000000000000065E
+t1294523822
+s1630
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPEvent.h
+c000000004D28DDAE0000000000000B8C
+t1294523822
+s2956
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPEventDispatcher.h
+c000000004D28DDAE0000000000000B7D
+t1294523822
+s2941
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPGLTexture.h
+c000000004D2B72670000000000000830
+t1294692967
+s2096
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+i"SPMacros.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPImage.h
+c000000004D4E457E0000000000000A45
+t1296975230
+s2629
+i<Foundation/Foundation.h>
+i"SPQuad.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPJuggler.h
+c000000004D28DDAE0000000000000B25
+t1294523822
+s2853
+i<Foundation/Foundation.h>
+i"SPAnimatable.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPMacros.h
+c000000004D5A305C0000000000000658
+t1297756252
+s1624
+i<Foundation/Foundation.h>
+i<math.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPMatrix.h
+c000000004D28DDAE0000000000000A79
+t1294523822
+s2681
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPMovieClip.h
+c000000004D28DDAE0000000000001137
+t1294523822
+s4407
+i<Foundation/Foundation.h>
+i"SPSprite.h"
+i"SPTexture.h"
+i"SPAnimatable.h"
+i"SPImage.h"
+i"SPSoundChannel.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPNSExtensions.h
+c000000004D28DDAE00000000000004B6
+t1294523822
+s1206
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPPoint.h
+c000000004D28DDAE00000000000008A3
+t1294523822
+s2211
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPPoolObject.h
+c000000004D28DDAE000000000000083A
+t1294523822
+s2106
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPQuad.h
+c000000004D32A6620000000000000AEC
+t1295165026
+s2796
+i<Foundation/Foundation.h>
+i"SPDisplayObject.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPRectangle.h
+c000000004D28DDAE000000000000088F
+t1294523822
+s2191
+i<Foundation/Foundation.h>
+i"SPPoolObject.h"
+i"SPPoint.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPRenderSupport.h
+c000000004D32C3BE0000000000000909
+t1295172542
+s2313
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPRenderTexture.h
+c000000004D329AF80000000000000CE9
+t1295162104
+s3305
+i<Foundation/Foundation.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+i"SPDisplayObject.h"
+i"SPTexture.h"
+i"SPRenderSupport.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPSound.h
+c000000004D28DDAE00000000000008C4
+t1294523822
+s2244
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPSoundChannel.h
+c000000004D28DDAE00000000000007AB
+t1294523822
+s1963
+i<Foundation/Foundation.h>
+i"SPSound.h"
+i"SPEventDispatcher.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPSprite.h
+c000000004D28DDAE0000000000000501
+t1294523822
+s1281
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPStage.h
+c000000004D5F8ECA0000000000000CB8
+t1298108106
+s3256
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPSubTexture.h
+c000000004D28DDAE0000000000000607
+t1294523822
+s1543
+i<Foundation/Foundation.h>
+i"SPTexture.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTextField.h
+c000000004D50CB5700000000000015A0
+t1297140567
+s5536
+i<Foundation/Foundation.h>
+i"SPDisplayObjectContainer.h"
+i"SPMacros.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTexture.h
+c000000004D5DD9490000000000001383
+t1297996105
+s4995
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTextureAtlas.h
+c000000004D28DDAE0000000000000E8D
+t1294523822
+s3725
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTouch.h
+c000000004D28DDAE0000000000000E8A
+t1294523822
+s3722
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTouchEvent.h
+c000000004D28DDAE0000000000000C22
+t1294523822
+s3106
+i<Foundation/Foundation.h>
+i"SPEvent.h"
+i"SPTouch.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTransitions.h
+c000000004D28DDAE0000000000000ABF
+t1294523822
+s2751
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPTween.h
+c000000004D28DDAE0000000000001064
+t1294523822
+s4196
+i<Foundation/Foundation.h>
+i"SPEventDispatcher.h"
+i"SPAnimatable.h"
+i"SPTransitions.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPUtils.h
+c000000004D28DDAE00000000000002E5
+t1294523822
+s741
+i<Foundation/Foundation.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/SPView.h
+c000000004D28DDAE0000000000000815
+t1294523822
+s2069
+i<UIKit/UIKit.h>
+i<OpenGLES/EAGL.h>
+i<OpenGLES/ES1/gl.h>
+i<OpenGLES/ES1/glext.h>
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/Classes/Sparrow.h
+c000000004D589FEC00000000000004ED
+t1297653740
+s1261
+i"SPNSExtensions.h"
+i"SPEventDispatcher.h"
+i"SPDisplayObject.h"
+i"SPDisplayObjectContainer.h"
+i"SPQuad.h"
+i"SPImage.h"
+i"SPTextField.h"
+i"SPBitmapFont.h"
+i"SPButton.h"
+i"SPStage.h"
+i"SPSprite.h"
+i"SPMovieClip.h"
+i"SPTexture.h"
+i"SPSubTexture.h"
+i"SPRenderTexture.h"
+i"SPGLTexture.h"
+i"SPTextureAtlas.h"
+i"SPEvent.h"
+i"SPTouchEvent.h"
+i"SPEnterFrameEvent.h"
+i"SPJuggler.h"
+i"SPTransitions.h"
+i"SPTween.h"
+i"SPDelayedInvocation.h"
+i"SPRectangle.h"
+i"SPMacros.h"
+i"SPUtils.h"
+i"SPView.h"
+i"SPRenderSupport.h"
+i"SPAudioEngine.h"
+i"SPSound.h"
+i"SPSoundChannel.h"
+i"SHLine.h"
+i"SHMotionBlurSprite.h"
+i"SHCircle.h"
+i"SHButton.h"
+i"SHJoystick.h"
+i"SHPolygon.h"
+i"SHInputField.h"
+i"SHThumbstick.h"
+
+N/Sparrow_2D_Engine/v1.1/sparrow/src/build/Debug-iphonesimulator/libSparrow.a
+c000000004D618E5E0000000000168D40
+t1298239070
+s1477952
+
+N/Users/shilo86/Desktop/examples/desert2.tmx
+c000000004D631D960000000000007E61
+t1298341270
+s32353
+
+N/Users/shilo86/Desktop/examples/tmw_desert_spacing.png
+c000000004D40B23100000000000093C6
+t1296085553
+s37830
+
+N/var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch.gch
+t1298342147
+s15211536
+
+NSimpleMapViewer-Info.plist
+c000000004D0C249E00000000000003B4
+t1292641438
+s948
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies320053948#320053948#0(0"0(0#1#0"8631026816#0"0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/AppDelegate.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320053804.162542
+e320053804.318302
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/AppDelegate.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m320053804#320053804#0(0"0(0#0#117"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m8633340928#2870"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/AppDelegate.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/AppDelegate.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Game.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320053948.906545
+e320053949.069442
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Game.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@118"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m320053948#320053949#0(0"0(0#0#110"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m8609057280#2856"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Game.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Game.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/NSDataAdditions.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320041779.665657
+e320041779.784302
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/NSDataAdditions.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@140"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m320041779#320041779#0(0"0(0#0#132"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m8616393888#2889"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/NSDataAdditions.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/NSDataAdditions.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STLayer.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320053661.036204
+e320053661.268058
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STLayer.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@126"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m320053661#320053661#0(0"0(0#0#118"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m8631159136#2867"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STLayer.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STLayer.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STMap.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320053822.884330
+e320053823.077175
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STMap.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@124"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m320053822#320053823#0(0"0(0#0#116"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m8633605088#2863"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STMap.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STMap.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTile.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320052851.667564
+e320052851.741707
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTile.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@125"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m320052851#320052851#0(0"0(0#0#117"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m8631620672#2865"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTile.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTile.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTileset.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320052851.741812
+e320052851.825834
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTileset.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@128"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m320052851#320052851#0(0"0(0#0#120"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m8631346496#2871"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/STTileset.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/STTileset.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Screen.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320052851.357296
+e320052851.593145
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Screen.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@120"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m320052851#320052851#0(0"0(0#0#112"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m8628210112#2860"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/Classes/Screen.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/Screen.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/TBXML.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320041779.710461
+e320041779.853341
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/TBXML.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@130"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m320041779#320041779#0(0"0(0#0#122"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m8608632352#2869"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../source/TBXML/TBXML.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/TBXML.o0#
+
+CCompileC build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/main.o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s320041779.171328
+e320041779.232070
+r1
+xCompileC
+xbuild/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/main.o
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@110"Compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m320041779#320041779#0(0"0(0#0#102"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m8625077376#2848"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -include /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/main.m -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib
+s320041778.634746
+e320041779.171069
+r1
+xCompileXIB
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib320041778#320041779#0(0"0(0#0#110"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib8622681120#749"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/MainWindow.nib /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/desert.tmx ../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx
+s320041778.636690
+e320041778.645950
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/desert.tmx
+x../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx
+lSLF07#2@60"Copy ../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx320041778#320041778#0(0"0(0#0#151"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx8608348864#678"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/desert.tmx /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/desert2.tmx /Users/shilo86/Desktop/examples/desert2.tmx
+s320035051.412576
+e320035051.418647
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/desert2.tmx
+x/Users/shilo86/Desktop/examples/desert2.tmx
+lSLF07#2@48"Copy /Users/shilo86/Desktop/examples/desert2.tmx320035051#320035051#0(0"0(0#0#43"/Users/shilo86/Desktop/examples/desert2.tmx8616989856#570"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/shilo86/Desktop/examples/desert2.tmx /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/sewer_tileset.png ../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png
+s320041778.635464
+e320041778.646969
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/sewer_tileset.png
+x../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png
+lSLF07#2@67"Copy ../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png320041778#320041778#0(0"0(0#0#158"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png8622113152#685"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewer_tileset.png /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/sewers.tmx ../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx
+s320041778.636091
+e320041778.644073
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/sewers.tmx
+x../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx
+lSLF07#2@60"Copy ../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx320041778#320041778#0(0"0(0#0#151"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx8628409952#678"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/sewers.tmx /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png ../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png
+s320041778.637297
+e320041778.649394
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png
+x../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png
+lSLF07#2@72"Copy ../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png320041778#320041778#0(0"0(0#0#163"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png8605662144#690"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/../../Samples/SimpleMapViewer/Resources/Maps/tmw_desert_spacing.png /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CCpResource build/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png /Users/shilo86/Desktop/examples/tmw_desert_spacing.png
+s320035051.413374
+e320035051.418794
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/SimpleMapViewer.app/tmw_desert_spacing.png
+x/Users/shilo86/Desktop/examples/tmw_desert_spacing.png
+lSLF07#2@59"Copy /Users/shilo86/Desktop/examples/tmw_desert_spacing.png320035051#320035051#0(0"0(0#0#54"/Users/shilo86/Desktop/examples/tmw_desert_spacing.png8616461088#581"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/shilo86/Desktop/examples/tmw_desert_spacing.png /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+
+CGenerateDSYMFile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer
+s320053949.179201
+e320053949.245777
+r1
+xGenerateDSYMFile
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer320053949#320053949#0(0"0(0#0#159"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer8627436928#578"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app.dSYM0#
+
+CLd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer normal i386
+s320053949.069542
+e320053949.178752
+r1
+xLd
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer
+xnormal
+xi386
+lSLF07#2@164"Link /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer320053949#320053949#0(0"0(0#0#0"8629550688#1430"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -filelist /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/Objects-normal/i386/SimpleMapViewer.LinkFileList -mmacosx-version-min=10.6 -all_load -ObjC -Xlinker -objc_abi_version -Xlinker 2 /Sparrow_2D_Engine/v1.1/sparrow/src/build/Debug-iphonesimulator/libSparrow.a -framework Foundation -framework UIKit -framework CoreGraphics -framework AudioToolbox -framework AVFoundation -framework OpenAL -framework OpenGLES -framework QuartzCore -lz -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/SimpleMapViewer0#
+
+CProcessInfoPlistFile /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/Info.plist SimpleMapViewer-Info.plist
+s320041778.631020
+e320041778.634620
+r1
+xProcessInfoPlistFile
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/Info.plist
+xSimpleMapViewer-Info.plist
+lSLF07#2@34"Process SimpleMapViewer-Info.plist320041778#320041778#0(0"0(0#0#122"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/SimpleMapViewer-Info.plist8627043168#674"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleMapViewer-Info.plist -genpkginfo /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app/Info.plist0#
+
+CProcessPCH /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch.gch SimpleMapViewer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s320034946.458525
+e320034947.516385
+r1
+xProcessPCH
+x/var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch.gch
+xSimpleMapViewer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile SimpleMapViewer_Prefix.pch320034946#320034947#0(0"0(0#0#122"/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/SimpleMapViewer_Prefix.pch8608070144#2675"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-generated-files.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-own-target-headers.hmap -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-all-target-headers.hmap -iquote /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/SimpleMapViewer-project-headers.hmap -F/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator -iquote/Sparrow_2D_Engine/v1.1/sparrow/src -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/Classes -iquote/Sparrow_2D_Engine/v1.1/sparrow/src/UnitTests -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/include -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources/i386 -I/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/SimpleMapViewer.build/Debug-iphonesimulator/SimpleMapViewer.build/DerivedSources -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/SimpleMapViewer_Prefix.pch -o /var/folders/zM/zM1AXMa2EkmjcLk4oM8k5k+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMapViewer_Prefix-cihxaufbfzcsdqgcwjzbwkxqpedr/SimpleMapViewer_Prefix.pch.gch0#
+
+CTouch /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app
+s320053949.245871
+e320053949.248769
+r1
+xTouch
+x/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app
+lSLF07#2@149"Touch /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app320053949#320053949#0(0"0(0#0#0"8626901664#400"    cd /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/Samples/SimpleMapViewer/build/Debug-iphonesimulator/SimpleMapViewer.app0#
+

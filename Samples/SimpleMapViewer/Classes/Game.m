@@ -3,7 +3,7 @@
 //  Sparrow
 //
 //  Created by Shilo White on 1/13/11.
-//  Copyright 2011 Shilocity Productions. All rights reserved.
+//  Copyright 2011 Shilocity Productions & Brian Ensor Apps. All rights reserved.
 //
 
 #import "Game.h"
@@ -28,21 +28,6 @@
 	[mScreen addChild:mBottomLayer];
 	[mScreen addChild:mTopLayer];
 	[self addEventListener:@selector(onTouch:) atObject:self forType:SP_EVENT_TYPE_TOUCH];
-	
-	[SPStage setDefaultOrigin:0.5];
-	
-	SHLine *line = [SHLine lineWithLength:10];
-	line.x = 480/2;
-	line.y = 320/2;
-	[mScreen addChild:line];
-	
-	SHLine *line2 = [SHLine lineWithLength:10];
-	line2.x = 480/2;
-	line2.y = 320/2;
-	line2.rotation = SP_D2R(90);
-	[mScreen addChild:line2];
-	
-	[SPStage setDefaultOrigin:0];
 }
 
 - (void)onTouch:(SPTouchEvent *)event {
@@ -57,23 +42,14 @@
 		float distX = moveLocation.x - movePrevLocation.x;
 		float distY = moveLocation.y - movePrevLocation.y;
 		
-		mBottomLayer.x = mTopLayer.x += distX;
-		mBottomLayer.y = mTopLayer.y += distY;
-
-		if (mBottomLayer.x > 0) mBottomLayer.x = mTopLayer.x = 0;
-		else if (mBottomLayer.x + (mMap.width*mMap.tileWidth) < 480) mBottomLayer.x = mTopLayer.x = 480 - (mMap.width*mMap.tileWidth);
-		if (mBottomLayer.y > 0) mBottomLayer.y = mTopLayer.y = 0;
-		else if (mBottomLayer.y + (mMap.height*mMap.tileHeight) < 320) mBottomLayer.y = mTopLayer.y = 320 - (mMap.height*mMap.tileHeight);
+		[mMap panViewByX:-distX y:-distY];
 	}
 	
 	if (touchUp) {
 		if (mIsPanning) { mIsPanning = NO; return; }
 		
-		SPPoint *touchUpPosition = [touchUp locationInSpace:mTopLayer];
-		[mTopLayer centerViewToX:touchUpPosition.x y:touchUpPosition.y];
-		[mBottomLayer centerViewToX:touchUpPosition.x y:touchUpPosition.y];
-		[mTopLayer centerViewToTile:[mTopLayer tileAtX:5 y:5]];
-		[mBottomLayer centerViewToTile:[mTopLayer tileAtX:5 y:5]];
+		SPPoint *touchUpPosition = [touchUp locationInSpace:mBottomLayer];
+		[mMap scrollViewToX:touchUpPosition.x y:touchUpPosition.y];
 	}
 }
 

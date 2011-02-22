@@ -3,7 +3,7 @@
 //  SparrowTiled
 //
 //  Created by Shilo White on 2/19/11.
-//  Copyright 2011 Shilocity Productions. All rights reserved.
+//  Copyright 2011 Shilocity Productions & Brian Ensor Apps. All rights reserved.
 //
 //  This program is free software; you can redistribute it and/or modify
 //  it under the terms of the Simplified BSD License.
@@ -22,6 +22,8 @@
 	int mHeight;
 	int mTileWidth;
 	int mTileHeight;
+	int mPixelWidth;
+	int mPixelHeight;
 	NSMutableArray *mTiles;
 	SPImage *mImage;
 	SPRenderTexture *mRenderTexture;
@@ -32,11 +34,26 @@
 @property (nonatomic, assign, readonly) int height;
 @property (nonatomic, assign, readonly) int tileWidth;
 @property (nonatomic, assign, readonly) int tileHeight;
+@property (nonatomic, assign, readonly) int pixelWidth;
+@property (nonatomic, assign, readonly) int pixelHeight;
 @property (nonatomic, assign, readonly) NSMutableArray *tiles;
 
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset;
 - (STTile *)tileAtIndex:(int)index;
 - (STTile *)tileAtX:(int)x y:(int)y;
+//add view methods into a viewport class
 - (void)centerViewToX:(float)x y:(float)y;
+- (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
 - (void)centerViewToTile:(STTile *)tile;
+- (void)centerViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
+- (void)panViewByX:(float)x y:(float)y;
+- (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds;
+- (void)scrollViewToX:(float)x y:(float)y;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time;
+- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
+- (void)scrollViewToTile:(STTile *)tile;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time;
+- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
 @end

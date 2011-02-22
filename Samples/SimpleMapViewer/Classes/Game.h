@@ -3,7 +3,7 @@
 //  Sparrow
 //
 //  Created by Shilo White on 1/13/11.
-//  Copyright 2011 Shilocity Productions. All rights reserved.
+//  Copyright 2011 Shilocity Productions & Brian Ensor Apps. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
