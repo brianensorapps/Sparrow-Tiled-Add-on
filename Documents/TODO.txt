@@ -2,5 +2,4 @@
 == Sparrow Tiled Add-on ==
 == Version: 0.0.2       ==
 ==========================
-- Add transparency color masking to tiles
 - Possibly move STLayer/STMap viewport methods to a viewport class
