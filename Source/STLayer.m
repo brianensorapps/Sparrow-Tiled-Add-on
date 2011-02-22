@@ -82,6 +82,18 @@
 	int i = (y*mWidth)+x;
 	return [mTiles objectAtIndex:i];
 }
+
+- (void)centerViewToX:(float)x y:(float)y {
+	NSLog(@"x:%f y:%f", x, y);
+	self.x = -x + (480/2);
+	self.y = -y + (320/2);
+}
+
+- (void)centerViewToTile:(STTile *)tile {
+	self.x = -(tile.x-tile.width/2) + (480/2);
+	self.y = -(tile.y-tile.height/2) + (320/2);
+}
+
 - (void)dealloc {
 	[mTiles release];
 	[super dealloc];

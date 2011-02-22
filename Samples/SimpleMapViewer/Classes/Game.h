@@ -16,6 +16,7 @@
 	STMap *mMap;
 	STLayer *mTopLayer;
 	STLayer *mBottomLayer;
+	BOOL mIsPanning;
 }
 
 - (void)load;

@@ -19,6 +19,8 @@
 	int mFirstGID;
 	int mTileWidth;
 	int mTileHeight;
+	int mSpacing;
+	int mMargin;
 	NSString *mTransparentColor;
 	int mWidth;
 	int mHeight;
@@ -29,10 +31,12 @@
 @property (nonatomic, assign, readonly) int firstGID;
 @property (nonatomic, assign, readonly) int tileWidth;
 @property (nonatomic, assign, readonly) int tileHeight;
+@property (nonatomic, assign, readonly) int spacing;
+@property (nonatomic, assign, readonly) int margin;
 @property (nonatomic, assign, readonly) NSString *transparentColor;
 @property (nonatomic, assign, readonly) int width;
 @property (nonatomic, assign, readonly) int height;
 
-- (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight transparentColor:(NSString *)transparentColor width:(int)width height:(int)height;
+- (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight spacing:(int)spacing margin:(int)margin transparentColor:(NSString *)transparentColor width:(int)width height:(int)height;
 - (SPTexture *)textureByGID:(int)gid;
 @end

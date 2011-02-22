@@ -37,4 +37,6 @@
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset;
 - (STTile *)tileAtIndex:(int)index;
 - (STTile *)tileAtX:(int)x y:(int)y;
+- (void)centerViewToX:(float)x y:(float)y;
+- (void)centerViewToTile:(STTile *)tile;
 @end

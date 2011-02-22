@@ -37,6 +37,8 @@
 @synthesize height = mHeight;
 @synthesize tileWidth = mTileWidth;
 @synthesize tileHeight = mTileHeight;
+@synthesize pixelWidth = mPixelWidth;
+@synthesize pixelHeight = mPixelHeight;
 @synthesize tileset = mTileset;
 @synthesize layers = mLayers;
 
@@ -85,6 +87,8 @@
 	mHeight = [[TBXML valueOfAttributeNamed:@"height" forElement:mapElement] intValue];
 	mTileWidth = [[TBXML valueOfAttributeNamed:@"tilewidth" forElement:mapElement] intValue];
 	mTileHeight = [[TBXML valueOfAttributeNamed:@"tileheight" forElement:mapElement] intValue];
+	mPixelWidth = mWidth * mTileWidth;
+	mPixelHeight = mHeight * mTileHeight;
 	
 	if (![mOrientation isEqualToString:@"orthogonal"]) [self raiseXMLError:@"OrientationNotSupported" message:[NSString stringWithFormat:@"orientation \"%@\" not supported yet", mOrientation]];
 }
@@ -98,11 +102,13 @@
 	int firstGID = [[TBXML valueOfAttributeNamed:@"firstgid" forElement:tilesetElement] intValue];
 	int tileWidth = [[TBXML valueOfAttributeNamed:@"tilewidth" forElement:tilesetElement] intValue];
 	int tileHeight = [[TBXML valueOfAttributeNamed:@"tileheight" forElement:tilesetElement] intValue];
+	int spacing = [[TBXML valueOfAttributeNamed:@"spacing" forElement:tilesetElement] intValue];
+	int margin = [[TBXML valueOfAttributeNamed:@"margin" forElement:tilesetElement] intValue];
 	NSString *transparentColor = [TBXML valueOfAttributeNamed:@"trans" forElement:imageElement];
 	int width = [[TBXML valueOfAttributeNamed:@"width" forElement:imageElement] intValue];
 	int height = [[TBXML valueOfAttributeNamed:@"height" forElement:imageElement] intValue];
 	
-	mTileset = [[STTileset alloc] initWithFile:filename name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight transparentColor:transparentColor width:width height:height];
+	mTileset = [[STTileset alloc] initWithFile:filename name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
 }
 
 - (void)loadLayer:(TBXMLElement *)layerElement {

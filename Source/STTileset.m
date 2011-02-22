@@ -24,17 +24,21 @@
 @synthesize firstGID = mFirstGID;
 @synthesize tileWidth = mTileWidth;
 @synthesize tileHeight = mTileHeight;
+@synthesize spacing = mSpacing;
+@synthesize margin = mMargin;
 @synthesize transparentColor = mTransparentColor;
 @synthesize width = mWidth;
 @synthesize height = mHeight;
 
-- (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight transparentColor:(NSString *)transparentColor width:(int)width height:(int)height {
+- (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight spacing:(int)spacing margin:(int)margin transparentColor:(NSString *)transparentColor width:(int)width height:(int)height {
 	if (self = [super initWithTexture:[SPTexture textureWithContentsOfFile:filename]]) {
 		mFilename = filename;
 		mName = name;
 		mFirstGID = firstGID;
 		mTileWidth = tileWidth;
 		mTileHeight = tileHeight;
+		mSpacing = spacing;
+		mMargin = margin;
 		mTransparentColor = transparentColor;
 		mWidth = width;
 		mHeight = height;
@@ -46,8 +50,8 @@
 
 - (void)setRegions {
 	int i = mFirstGID;
-	for (int y=0; y+mTileHeight<=mHeight; y+=mTileHeight) {
-		for (int x=0; x+mTileWidth<=mWidth; x+=mTileWidth) {
+	for (int y=mSpacing; y+mTileHeight+mMargin<=mHeight; y+=mTileHeight+mMargin) {
+		for (int x=mSpacing; x+mTileWidth+mMargin<=mWidth; x+=mTileWidth+mMargin) {
 			SPRectangle *region = [SPRectangle rectangleWithX:x y:y width:mTileWidth height:mTileHeight];
 			[self addRegion:region withName:[NSString stringWithFormat:@"%i", i++]];
 		}

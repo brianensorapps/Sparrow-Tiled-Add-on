@@ -21,6 +21,8 @@
 	int mHeight;
 	int mTileWidth;
 	int mTileHeight;
+	int mPixelWidth;
+	int mPixelHeight;
 	STTileset *mTileset;
 	NSMutableDictionary *mLayers;
 }
@@ -32,6 +34,8 @@
 @property (nonatomic, assign, readonly) int height;
 @property (nonatomic, assign, readonly) int tileWidth;
 @property (nonatomic, assign, readonly) int tileHeight;
+@property (nonatomic, assign, readonly) int pixelWidth;
+@property (nonatomic, assign, readonly) int pixelHeight;
 @property (nonatomic, assign, readonly) STTileset *tileset;
 @property (nonatomic, assign, readonly) NSMutableDictionary *layers;
 
