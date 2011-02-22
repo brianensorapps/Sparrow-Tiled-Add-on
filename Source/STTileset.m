@@ -48,6 +48,24 @@
 	return self;
 }
 
+- (id)initWithFile:(NSString *)filename texture:(SPTexture *)texture name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight spacing:(int)spacing margin:(int)margin transparentColor:(NSString *)transparentColor width:(int)width height:(int)height {
+	if (self = [super initWithTexture:texture]) {
+		mFilename = filename;
+		mName = name;
+		mFirstGID = firstGID;
+		mTileWidth = tileWidth;
+		mTileHeight = tileHeight;
+		mSpacing = spacing;
+		mMargin = margin;
+		mTransparentColor = transparentColor;
+		mWidth = width;
+		mHeight = height;
+		
+		[self setRegions];
+	}
+	return self;
+}
+
 - (void)setRegions {
 	int i = mFirstGID;
 	for (int y=mSpacing; y+mTileHeight+mMargin<=mHeight; y+=mTileHeight+mMargin) {

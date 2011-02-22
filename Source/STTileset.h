@@ -38,5 +38,6 @@
 @property (nonatomic, assign, readonly) int height;
 
 - (id)initWithFile:(NSString *)filename name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight spacing:(int)spacing margin:(int)margin transparentColor:(NSString *)transparentColor width:(int)width height:(int)height;
+- (id)initWithFile:(NSString *)filename texture:(SPTexture)texture name:(NSString *)name firstGID:(int)firstGID tileWidth:(int)tileWidth tileHeight:(int)tileHeight spacing:(int)spacing margin:(int)margin transparentColor:(NSString *)transparentColor width:(int)width height:(int)height;
 - (SPTexture *)textureByGID:(int)gid;
 @end

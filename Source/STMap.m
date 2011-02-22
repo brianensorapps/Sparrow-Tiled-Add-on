@@ -109,7 +109,69 @@
 	int width = [[TBXML valueOfAttributeNamed:@"width" forElement:imageElement] intValue];
 	int height = [[TBXML valueOfAttributeNamed:@"height" forElement:imageElement] intValue];
 	
-	mTileset = [[STTileset alloc] initWithFile:filename name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
+	NSString *trans = [@"0x" stringByAppendingString:[TBXML valueOfAttributeNamed:@"trans" forElement:imageElement]];
+	NSScanner *scanner = [NSScanner scannerWithString:trans];
+	unsigned int baseColor1;
+	[scanner scanHexInt:&baseColor1]; 
+	CGFloat red   = ((baseColor1 & 0xFF0000) >> 16);
+	CGFloat green = ((baseColor1 & 0x00FF00) >>  8);
+	CGFloat blue  =  (baseColor1 & 0x0000FF);
+	if (trans) {
+		SPTexture *transparentTexture = [[SPTexture alloc] initWithWidth:width height:height
+																	draw:^(CGContextRef context) {
+																		CGImageRef image = [[UIImage imageNamed:filename] CGImage];
+																		const float myMaskingColors[6] = {red, red, green, green, blue, blue};
+																		CGImageRef myMaskedImage = CGImageCreateWithMaskingColors(image, myMaskingColors);
+																		CGContextTranslateCTM(context, 0, height);
+																		CGContextScaleCTM(context, 1.0, -1.0);
+																		CGContextDrawImage (context, CGRectMake(0, 0, width, height), myMaskedImage);
+																	}];
+		mTileset = [[STTileset alloc] initWithFile:filename texture:transparentTexture name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
+		[transparentTexture release];
+	}
+	else {
+		mTileset = [[STTileset alloc] initWithFile:filename name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
+	}
+}
+
+- (void)loadTileset:(TBXMLElement *)tilesetElement {
+	TBXMLElement *imageElement = [TBXML childElementNamed:@"image" parentElement:tilesetElement];
+	if (!imageElement) [self raiseXMLError:ST_EXC_ELEMENT_NOT_FOUND message:@"\"image\" element doesn't exist"];
+	
+	NSString *filename = [TBXML valueOfAttributeNamed:@"source" forElement:imageElement];
+	NSString *name = [TBXML valueOfAttributeNamed:@"name" forElement:tilesetElement];
+	int firstGID = [[TBXML valueOfAttributeNamed:@"firstgid" forElement:tilesetElement] intValue];
+	int tileWidth = [[TBXML valueOfAttributeNamed:@"tilewidth" forElement:tilesetElement] intValue];
+	int tileHeight = [[TBXML valueOfAttributeNamed:@"tileheight" forElement:tilesetElement] intValue];
+	int spacing = [[TBXML valueOfAttributeNamed:@"spacing" forElement:tilesetElement] intValue];
+	int margin = [[TBXML valueOfAttributeNamed:@"margin" forElement:tilesetElement] intValue];
+	NSString *transparentColor = [TBXML valueOfAttributeNamed:@"trans" forElement:imageElement];
+	int width = [[TBXML valueOfAttributeNamed:@"width" forElement:imageElement] intValue];
+	int height = [[TBXML valueOfAttributeNamed:@"height" forElement:imageElement] intValue];
+	
+	NSString *trans = [@"0x" stringByAppendingString:[TBXML valueOfAttributeNamed:@"trans" forElement:imageElement]];
+	NSScanner *scanner = [NSScanner scannerWithString:trans];
+	unsigned int baseColor1;
+	[scanner scanHexInt:&baseColor1]; 
+	CGFloat red   = ((baseColor1 & 0xFF0000) >> 16);
+	CGFloat green = ((baseColor1 & 0x00FF00) >>  8);
+	CGFloat blue  =  (baseColor1 & 0x0000FF);
+	if (trans) {
+		SPTexture *transparentTexture = [[SPTexture alloc] initWithWidth:width height:height
+																	draw:^(CGContextRef context) {
+																		CGImageRef image = [[UIImage imageNamed:filename] CGImage];
+																		const float myMaskingColors[6] = {red, red, green, green, blue, blue};
+																		CGImageRef myMaskedImage = CGImageCreateWithMaskingColors(image, myMaskingColors);
+																		CGContextTranslateCTM(context, 0, height);
+																		CGContextScaleCTM(context, 1.0, -1.0);
+																		CGContextDrawImage (context, CGRectMake(0, 0, width, height), myMaskedImage);
+																	}];
+		mTileset = [[STTileset alloc] initWithTexture:transparentTexture name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
+		[transparentTexture release];
+	}
+	else {
+		mTileset = [[STTileset alloc] initWithFile:filename name:name firstGID:firstGID tileWidth:tileWidth tileHeight:tileHeight spacing:spacing margin:margin transparentColor:transparentColor width:width height:height];
+	}
 }
 
 - (void)loadLayer:(TBXMLElement *)layerElement {
