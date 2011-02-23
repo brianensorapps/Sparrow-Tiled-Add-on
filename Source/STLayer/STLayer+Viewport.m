@@ -13,6 +13,7 @@
 #import "STTile.h"
 #import "SPTween.h"
 #import "SPStage.h"
+#import "SPJuggler.h"
 
 @implementation STLayer (viewport)
 - (void)centerViewToX:(float)x y:(float)y {
@@ -83,6 +84,7 @@
 		y = MIN(y, mPixelHeight - screenCenterY);
 	}
 	
+	[self.stage.juggler removeTweensWithTarget:self];
 	SPTween *tween = [SPTween tweenWithTarget:self time:time transition:transition];
 	[tween animateProperty:@"x" targetValue:-x+screenCenterX];
 	[tween animateProperty:@"y" targetValue:-y+screenCenterY];
