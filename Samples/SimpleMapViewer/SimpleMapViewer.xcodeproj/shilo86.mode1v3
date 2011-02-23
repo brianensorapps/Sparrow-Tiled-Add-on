@@ -229,6 +229,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -278,14 +280,15 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>14</integer>
+									<integer>11</integer>
+									<integer>9</integer>
 									<integer>5</integer>
 									<integer>4</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {186, 627}}</string>
+							<string>{{0, 134}, {186, 627}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -315,14 +318,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>SPRenderTexture.h</string>
+								<string>STLayer+Viewport.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -330,11 +331,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>SPRenderTexture.h</string>
+										<string>STLayer+Viewport.m</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>4B83251D1314E580001F0FED</string>
+										<string>4B83266D1314FB8A001F0FED</string>
 										<key>history</key>
 										<array>
 											<string>4BE5148D12BC5C620079894A</string>
@@ -382,34 +383,39 @@
 											<string>4BD27DCF1313997F00ABD914</string>
 											<string>4BD27DD01313997F00ABD914</string>
 											<string>4BD27DD11313997F00ABD914</string>
-											<string>4BD27DD21313997F00ABD914</string>
 											<string>4BD27DD31313997F00ABD914</string>
-											<string>4BD27DD51313997F00ABD914</string>
 											<string>4BD27E0713139D6800ABD914</string>
 											<string>4BD27E0913139D6800ABD914</string>
 											<string>4BD27E0B13139D6800ABD914</string>
 											<string>4BD27E321313A05C00ABD914</string>
-											<string>4BD27E521313A29400ABD914</string>
-											<string>4BD27E531313A29400ABD914</string>
-											<string>4BD27E551313A29400ABD914</string>
-											<string>4BD27E561313A29400ABD914</string>
 											<string>4BEA80781314BA6D000B3B08</string>
 											<string>4BC365F01314D66700C13275</string>
 											<string>4BC366061314D75600C13275</string>
-											<string>4BC366191314D84D00C13275</string>
-											<string>4BC3661D1314D84D00C13275</string>
-											<string>4BC3665B1314DEAB00C13275</string>
-											<string>4BC3665C1314DEAB00C13275</string>
-											<string>4BC3665D1314DEAB00C13275</string>
 											<string>4BC3665E1314DEAB00C13275</string>
-											<string>4B79DE901314E2400002BB78</string>
-											<string>4B79DE911314E2400002BB78</string>
-											<string>4B2120361314E2D00025F4D2</string>
-											<string>4B2120371314E2D00025F4D2</string>
 											<string>4B2C936C1314E3C300E2C835</string>
-											<string>4B2C936D1314E3C300E2C835</string>
 											<string>4B2C93A11314E55900E2C835</string>
-											<string>4B2C93AD1314E57700E2C835</string>
+											<string>4B83254C1314EA7E001F0FED</string>
+											<string>4B83255E1314EC7E001F0FED</string>
+											<string>4B8325711314ED13001F0FED</string>
+											<string>4B8325851314EF28001F0FED</string>
+											<string>4B8325871314EF28001F0FED</string>
+											<string>4B8325941314EF8B001F0FED</string>
+											<string>4B8325951314EF8B001F0FED</string>
+											<string>4B8325981314EF8B001F0FED</string>
+											<string>4B8325E51314F4A3001F0FED</string>
+											<string>4B83260E1314F6AE001F0FED</string>
+											<string>4B83261E1314F783001F0FED</string>
+											<string>4B83262A1314F7D7001F0FED</string>
+											<string>4B8326561314FA72001F0FED</string>
+											<string>4B8326571314FA72001F0FED</string>
+											<string>4B8326651314FB8A001F0FED</string>
+											<string>4B8326661314FB8A001F0FED</string>
+											<string>4B8326671314FB8A001F0FED</string>
+											<string>4B8326681314FB8A001F0FED</string>
+											<string>4B8326691314FB8A001F0FED</string>
+											<string>4B83266A1314FB8A001F0FED</string>
+											<string>4B83266B1314FB8A001F0FED</string>
+											<string>4B83266C1314FB8A001F0FED</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -607,11 +613,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>4B8325281314E580001F0FED</string>
+		<string>1C530D57069F1CE1000CFCEE</string>
+		<string>4B8325591314EA7E001F0FED</string>
 		<string>4B8325291314E580001F0FED</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>4BE5144112BC54C40079894A</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on/samples/SimpleMapViewer/SimpleMapViewer.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -636,23 +643,25 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>STLayer.m</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {500, 0}}</string>
+								<string>{{0, 0}, {500, 136}}</string>
 								<key>RubberWindowFrame</key>
 								<string>137 177 500 500 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>0pt</string>
+							<string>136pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -667,14 +676,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 5}, {500, 454}}</string>
+								<string>{{0, 141}, {500, 318}}</string>
 								<key>RubberWindowFrame</key>
 								<string>137 177 500 500 0 0 1024 746 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXBuildResultsModule</string>
 							<key>Proportion</key>
-							<string>454pt</string>
+							<string>318pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -852,7 +861,7 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CDD528C0622207200134675</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>STLayer.m</string>
+										<string></string>
 										<key>StatusBarVisibility</key>
 										<true/>
 									</dict>
@@ -910,8 +919,8 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C530D57069F1CE1000CFCEE</string>
-				<string>4B79DE8E1314E2400002BB78</string>
-				<string>4B79DE8F1314E2400002BB78</string>
+				<string>4B8325461314E989001F0FED</string>
+				<string>4B8325471314E989001F0FED</string>
 				<string>1CDD528C0622207200134675</string>
 				<string>1CD0528E0623707200166675</string>
 			</array>
@@ -939,6 +948,8 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -984,7 +995,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>Identifier</key>

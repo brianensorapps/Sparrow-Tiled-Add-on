@@ -20,13 +20,8 @@
 }
 
 - (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds {
-	//FOR BRIAN
-	//CHANGE 480 AND 320 TO SCREEN SIZE BASED ON DEVICE AND ORIENTATION
-	//YOU ROCK
-	float screenWidth = 480;
-	float screenHeight = 320;
-	float screenCenterX = screenWidth/2;
-	float screenCenterY = screenHeight/2;
+	float screenCenterX = self.viewWidth/2;
+	float screenCenterY = self.viewHeight/2;
 	
 	if (inBounds) {
 		x = MAX(x, screenCenterX);
@@ -52,19 +47,13 @@
 }
 
 - (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds {
-	//FOR BRIAN
-	//CHANGE 480 AND 320 TO SCREEN SIZE BASED ON DEVICE AND ORIENTATION
-	//YOU ROCK
-	float screenWidth = 480;
-	float screenHeight = 320;
-	
 	x = self.x - x;
 	y = self.y - y;
 	if (inBounds) {
 		x = MIN(x, 0);
 		y = MIN(y, 0);
-		x = MAX(x, -mPixelWidth + screenWidth);
-		y = MAX(y, -mPixelHeight + screenHeight);
+		x = MAX(x, -mPixelWidth + self.viewWidth);
+		y = MAX(y, -mPixelHeight + self.viewHeight);
 	}
 	
 	self.x = x;
@@ -84,13 +73,8 @@
 }
 
 - (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
-	//FOR BRIAN
-	//CHANGE 480 AND 320 TO SCREEN SIZE BASED ON DEVICE AND ORIENTATION
-	//YOU ROCK
-	float screenWidth = 480;
-	float screenHeight = 320;
-	float screenCenterX = screenWidth/2;
-	float screenCenterY = screenHeight/2;
+	float screenCenterX = self.viewWidth/2;
+	float screenCenterY = self.viewHeight/2;
 	
 	if (inBounds) {
 		x = MAX(x, screenCenterX);
@@ -118,10 +102,8 @@
 }
 
 - (void)scrollViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
-	float screenWidth = 480;
-	float screenHeight = 320;
-	float screenCenterX = screenWidth/2;
-	float screenCenterY = screenHeight/2;
+	float screenCenterX = self.viewWidth/2;
+	float screenCenterY = self.viewHeight/2;
 	x = -self.x+x+screenCenterX;
 	y = -self.y+y+screenCenterY;
 	[self scrollViewToX:x y:y inBounds:inBounds time:time transition:transition];

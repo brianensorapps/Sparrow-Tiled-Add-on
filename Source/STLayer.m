@@ -15,6 +15,8 @@
 #import "SPTexture.h"
 #import "SPImage.h"
 #import "SPRenderTexture.h"
+#import "SPMacros.h"
+#import "SPStage.h"
 
 @interface STLayer ()
 - (void)loadTileWithGID:(int)gid tileset:(STTileset *)tileset index:(int)i;
@@ -87,6 +89,36 @@
 - (STTile *)tileAtX:(int)x y:(int)y {
 	int i = (y*mWidth)+x;
 	return [mTiles objectAtIndex:i];
+}
+
+- (float)trueRotation {
+	float rotation = 0;
+	
+	SPDisplayObject *currentObject = self;
+    while (currentObject.parent) {
+		rotation += currentObject.rotation;
+		currentObject = currentObject.parent;
+	}
+	
+	return rotation;
+}
+
+- (float)viewWidth {
+	float trueRotation = SP_R2D(self.trueRotation);
+	if (trueRotation == 90 || trueRotation == -90 || trueRotation == 270 || trueRotation == -270) {
+		return self.stage.height;
+	} else {
+		return self.stage.width;
+	}
+}
+
+- (float)viewHeight {
+	float trueRotation = SP_R2D(self.trueRotation);
+	if (trueRotation == 90 || trueRotation == -90 || trueRotation == 270 || trueRotation == -270) {
+		return self.stage.width;
+	} else {
+		return self.stage.height;
+	}
 }
 
 - (void)dealloc {

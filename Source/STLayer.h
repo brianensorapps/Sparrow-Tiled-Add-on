@@ -37,6 +37,9 @@
 @property (nonatomic, assign, readonly) int pixelWidth;
 @property (nonatomic, assign, readonly) int pixelHeight;
 @property (nonatomic, assign, readonly) NSMutableArray *tiles;
+@property (nonatomic, assign, readonly) float trueRotation;
+@property (nonatomic, assign, readonly) float viewWidth;
+@property (nonatomic, assign, readonly) float viewHeight;
 
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset;
 - (STTile *)tileAtIndex:(int)index;

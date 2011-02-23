@@ -27,6 +27,7 @@
 	
 	[mScreen addChild:mBottomLayer];
 	[mScreen addChild:mTopLayer];
+	
 	[self addEventListener:@selector(onTouch:) atObject:self forType:SP_EVENT_TYPE_TOUCH];
 }
 
