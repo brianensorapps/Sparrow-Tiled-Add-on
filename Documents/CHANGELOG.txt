@@ -1,7 +1,17 @@
 ==========================
 == Sparrow Tiled Add-on ==
+== Version: 0.0.3       ==
+==========================
+[02/22/2011]
+- Added transparency support
+- Added an additional scrolling feature
+- Added support for viewWidth, viewHeight, and trueRotation
+- Fixed a few bugs
+
+==========================
 == Version: 0.0.2       ==
 ==========================
+[02/21/2011]
 - Added STLayer/STMap Viewpoint methods
   * panning, scrolling, centering
 - Fixed a few bugs
@@ -10,6 +20,7 @@
 ==========================
 == Version: 0.0.1       ==
 ==========================
+[02/20/2011]
 - Added STMap class
 - Added STLayer class
 - Added STTileset class

@@ -1,5 +1,5 @@
 ==========================
 == Sparrow Tiled Add-on ==
-== Version: 0.0.2       ==
+== Version: 0.0.3       ==
 ==========================
-- Possibly move STLayer/STMap viewport methods to a viewport class
+- fix "failed to create frame buffer for render texture" error message when running with a retina device.
