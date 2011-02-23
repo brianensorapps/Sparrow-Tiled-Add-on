@@ -41,19 +41,4 @@
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset;
 - (STTile *)tileAtIndex:(int)index;
 - (STTile *)tileAtX:(int)x y:(int)y;
-//add view methods into a viewport class
-- (void)centerViewToX:(float)x y:(float)y;
-- (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)centerViewToTile:(STTile *)tile;
-- (void)centerViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
-- (void)panViewByX:(float)x y:(float)y;
-- (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)scrollViewToX:(float)x y:(float)y;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
-- (void)scrollViewToTile:(STTile *)tile;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
 @end

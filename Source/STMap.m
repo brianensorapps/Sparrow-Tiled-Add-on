@@ -105,7 +105,7 @@
 	int tileHeight = [[TBXML valueOfAttributeNamed:@"tileheight" forElement:tilesetElement] intValue];
 	int spacing = [[TBXML valueOfAttributeNamed:@"spacing" forElement:tilesetElement] intValue];
 	int margin = [[TBXML valueOfAttributeNamed:@"margin" forElement:tilesetElement] intValue];
-	NSString *transparentColor = [@"0x" stringByAppendingString:[TBXML valueOfAttributeNamed:@"trans" forElement:imageElement]];
+	NSString *transparentColor = [TBXML valueOfAttributeNamed:@"trans" forElement:imageElement];
 	int width = [[TBXML valueOfAttributeNamed:@"width" forElement:imageElement] intValue];
 	int height = [[TBXML valueOfAttributeNamed:@"height" forElement:imageElement] intValue];
 	
@@ -136,72 +136,6 @@
 - (STLayer *)layerByName:(NSString *)name {
 	name = [name lowercaseString];
 	return [mLayers objectForKey:name];
-}
-
-- (void)centerViewToX:(float)x y:(float)y {
-	[self centerViewToX:x y:y inBounds:YES];
-}
-
-- (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds {
-	for (id key in mLayers) {
-		[[mLayers objectForKey:key] centerViewToX:x y:y inBounds:inBounds];
-	}
-}
-
-- (void)centerViewToTile:(STTile *)tile {
-	[self centerViewToTile:tile inBounds:YES];
-}
-
-- (void)centerViewToTile:(STTile *)tile inBounds:(BOOL)inBounds {
-	for (id key in mLayers) {
-		[[mLayers objectForKey:key] centerViewToTile:tile inBounds:inBounds];
-	}
-}
-
-- (void)panViewByX:(float)x y:(float)y {
-	[self panViewByX:x y:y inBounds:YES];
-}
-
-- (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds {
-	for (id key in mLayers) {
-		[[mLayers objectForKey:key] panViewByX:x y:y inBounds:inBounds];
-	}
-}
-
-- (void)scrollViewToX:(float)x y:(float)y {
-	[self scrollViewToX:x y:y inBounds:YES time:0.5f transition:@"linear"];
-}
-
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds {
-	[self scrollViewToX:x y:y inBounds:inBounds time:0.5f transition:@"linear"];
-}
-
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time {
-	[self scrollViewToX:x y:y inBounds:inBounds time:time transition:@"linear"];
-}
-
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
-	for (id key in mLayers) {
-		[[mLayers objectForKey:key] scrollViewToX:x y:y inBounds:inBounds time:time transition:transition];
-	}
-}
-
-- (void)scrollViewToTile:(STTile *)tile {
-	[self scrollViewToTile:tile inBounds:YES time:0.5f transition:@"linear"];
-}
-
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds {
-	[self scrollViewToTile:tile inBounds:inBounds time:0.5f transition:@"linear"];
-}
-
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time {
-	[self scrollViewToTile:tile inBounds:inBounds time:time transition:@"linear"];
-}
-
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
-	for (id key in mLayers) {
-		[[mLayers objectForKey:key] scrollViewToTile:tile inBounds:inBounds time:time transition:transition];
-	}
 }
 
 - (void)raiseXMLError:(NSString *)error message:(NSString *)message {

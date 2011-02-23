@@ -22,7 +22,7 @@
 
 - (void)load {
 	mMap = [[STMap alloc] initWithTMXFile:@"sewers.tmx"];
-	mTopLayer = [mMap layerByName:@"Top"];
+	mTopLayer = [mMap layerByName:@"top"];
 	mBottomLayer = [mMap layerByName:@"bottom"];
 	
 	[mScreen addChild:mBottomLayer];

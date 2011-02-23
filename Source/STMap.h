@@ -43,18 +43,4 @@
 - (id)initWithTMXFile:(NSString *)filename;
 + (STMap *)mapWithTMXFile:(NSString *)filename;
 - (STLayer *)layerByName:(NSString *)name;
-- (void)centerViewToX:(float)x y:(float)y;
-- (void)centerViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)centerViewToTile:(STTile *)tile;
-- (void)centerViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
-- (void)panViewByX:(float)x y:(float)y;
-- (void)panViewByX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)scrollViewToX:(float)x y:(float)y;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time;
-- (void)scrollViewToX:(float)x y:(float)y inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
-- (void)scrollViewToTile:(STTile *)tile;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time;
-- (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
 @end

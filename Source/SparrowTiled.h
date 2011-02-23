@@ -9,9 +9,11 @@
 //  it under the terms of the Simplified BSD License.
 //
 
-#define SPARROWTILED_VERSION @"0.0.2"
+#define SPARROWTILED_VERSION @"0.0.3"
 
 #import "STMap.h"
+#import "STMap+Viewport.h"
 #import "STTileset.h"
 #import "STLayer.h"
+#import "STLayer+Viewport.h"
 #import "STTile.h"
