@@ -133,8 +133,8 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320124892;
-			PBXWorkspaceStateSaveDate = 320124892;
+			PBXPerProjectTemplateStateSaveDate = 320129223;
+			PBXWorkspaceStateSaveDate = 320129223;
 		};
 		perUserProjectItems = {
 			4B0F3CAE1302231A00BE1BA4 /* PBXTextBookmark */ = 4B0F3CAE1302231A00BE1BA4 /* PBXTextBookmark */;
@@ -167,6 +167,7 @@
 			4B8071581301245500272D8C /* PBXTextBookmark */ = 4B8071581301245500272D8C /* PBXTextBookmark */;
 			4B948554131251AE00517D90 /* PBXBookmark */ = 4B948554131251AE00517D90 /* PBXBookmark */;
 			4BAB995513061CD90047FE30 /* PBXTextBookmark */ = 4BAB995513061CD90047FE30 /* PBXTextBookmark */;
+			4BC365931314C8CB00C13275 /* PBXTextBookmark */ = 4BC365931314C8CB00C13275 /* PBXTextBookmark */;
 			4BC3959313079A8A00FCB25F /* PBXTextBookmark */ = 4BC3959313079A8A00FCB25F /* PBXTextBookmark */;
 			4BC3959413079A8A00FCB25F /* PBXTextBookmark */ = 4BC3959413079A8A00FCB25F /* PBXTextBookmark */;
 			4BD1C55512FF510D00449D7B /* PBXTextBookmark */ = 4BD1C55512FF510D00449D7B /* PBXTextBookmark */;
@@ -202,7 +203,6 @@
 			4BEA80771314BA6D000B3B08 /* PBXTextBookmark */ = 4BEA80771314BA6D000B3B08 /* PBXTextBookmark */;
 			4BEA80781314BA6D000B3B08 /* PBXTextBookmark */ = 4BEA80781314BA6D000B3B08 /* PBXTextBookmark */;
 			4BEA807A1314BA6D000B3B08 /* PBXTextBookmark */ = 4BEA807A1314BA6D000B3B08 /* PBXTextBookmark */;
-			4BEA807B1314BA6D000B3B08 /* PBXTextBookmark */ = 4BEA807B1314BA6D000B3B08 /* PBXTextBookmark */;
 			4BEA807D1314BA6D000B3B08 /* PBXTextBookmark */ = 4BEA807D1314BA6D000B3B08 /* PBXTextBookmark */;
 			4BF35F0B130881FC0036FE53 /* PBXTextBookmark */ = 4BF35F0B130881FC0036FE53 /* PBXTextBookmark */;
 		};
@@ -770,6 +770,22 @@
 		vrLen = 1611;
 		vrLoc = 409;
 	};
+	4BC365931314C8CB00C13275 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4BC365941314C8CB00C13275 /* STMap.m */;
+		name = "STMap.m: 81";
+		rLen = 0;
+		rLoc = 2572;
+		rType = 0;
+		vrLen = 1971;
+		vrLoc = 2166;
+	};
+	4BC365941314C8CB00C13275 /* STMap.m */ = {
+		isa = PBXFileReference;
+		name = STMap.m;
+		path = "/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on Backups/02-22-11/Source/STMap.m";
+		sourceTree = "<absolute>";
+	};
 	4BC3958F13079A6B00FCB25F /* SHThumbstick.m */ = {
 		isa = PBXFileReference;
 		lastKnownFileType = sourcecode.c.objc;
@@ -1308,6 +1324,7 @@
 	};
 	4BEA80791314BA6D000B3B08 /* STTileset.m */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
 		name = STTileset.m;
 		path = "/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on Backups/02-22-11/Source/STTileset.m";
 		sourceTree = "<absolute>";
@@ -1322,20 +1339,6 @@
 		vrLen = 2109;
 		vrLoc = 6954;
 	};
-	4BEA807B1314BA6D000B3B08 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 4BEA807C1314BA6D000B3B08 /* STMap.m */;
-		rLen = 0;
-		rLoc = 9223372036854775807;
-		rType = 0;
-	};
-	4BEA807C1314BA6D000B3B08 /* STMap.m */ = {
-		isa = PBXFileReference;
-		lastKnownFileType = sourcecode.c.objc;
-		name = STMap.m;
-		path = "/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on Backups/02-22-11/Source/STMap.m";
-		sourceTree = "<absolute>";
-	};
 	4BEA807D1314BA6D000B3B08 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 4BEA807E1314BA6D000B3B08 /* STMap.m */;
@@ -1348,14 +1351,10 @@
 	};
 	4BEA807E1314BA6D000B3B08 /* STMap.m */ = {
 		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.objc;
 		name = STMap.m;
 		path = "/Shilocity_Productions/iOS_Projects/Sparrow/Addons/Sparrow-Tiled-Add-on Backups/02-22-11/Source/STMap.m";
 		sourceTree = "<absolute>";
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1531, 2769}}";
-			sepNavSelRange = "{2572, 0}";
-			sepNavVisRange = "{2166, 2065}";
-		};
 	};
 	4BF35F0B130881FC0036FE53 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
