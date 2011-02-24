@@ -2,6 +2,10 @@
 == Sparrow Tiled Add-on ==
 == Version: 0.0.3       ==
 ==========================
+[02/23/2011]
+- Added zoom features
+- Added opacity support to layers
+
 [02/22/2011]
 - Added transparency support
 - Added an additional scrolling feature

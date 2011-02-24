@@ -42,6 +42,7 @@
 @synthesize pixelHeight = mPixelHeight;
 @synthesize tileset = mTileset;
 @synthesize layers = mLayers;
+@synthesize zoom;
 
 - (id)initWithTMXFile:(NSString *)filename {
 	if (self = [super init]) {
@@ -116,6 +117,7 @@
 	NSString *name = [TBXML valueOfAttributeNamed:@"name" forElement:layerElement];
 	int width = [[TBXML valueOfAttributeNamed:@"width" forElement:layerElement] intValue];
 	int height = [[TBXML valueOfAttributeNamed:@"height" forElement:layerElement] intValue];
+	NSString *opacity = [TBXML valueOfAttributeNamed:@"opacity" forElement:layerElement];
 	
 	TBXMLElement *dataElement = [TBXML childElementNamed:@"data" parentElement:layerElement];
 	if (!dataElement) [self raiseXMLError:ST_EXC_ELEMENT_NOT_FOUND message:@"\"data\" element doesn't exist"];
@@ -129,6 +131,7 @@
 	}
 	
 	STLayer *layer = [[STLayer alloc] initWithName:name width:width height:height gids:tileGIDS tileset:mTileset];
+	if (opacity) layer.alpha = [opacity floatValue]; 
 	[mLayers setObject:layer forKey:[name lowercaseString]];
 	[layer release];
 }

@@ -40,6 +40,8 @@
 @property (nonatomic, assign, readonly) float trueRotation;
 @property (nonatomic, assign, readonly) float viewWidth;
 @property (nonatomic, assign, readonly) float viewHeight;
+@property (nonatomic, assign, readonly) SPImage *image;
+@property (nonatomic, assign) float zoom;
 
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset;
 - (STTile *)tileAtIndex:(int)index;

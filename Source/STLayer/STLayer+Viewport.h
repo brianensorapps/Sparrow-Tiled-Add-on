@@ -31,4 +31,16 @@
 - (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds;
 - (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time;
 - (void)scrollViewToTile:(STTile *)tile inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
+- (void)zoomViewToRate:(float)rate;
+- (void)zoomViewToRate:(float)rate inBounds:(BOOL)inBounds;
+- (void)zoomViewByRate:(float)rate;
+- (void)zoomViewByRate:(float)rate inBounds:(BOOL)inBounds;
+- (void)zoomTweenViewToRate:(float)rate;
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds;
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds time:(float)time;
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
+- (void)zoomTweenViewByRate:(float)rate;
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds;
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds time:(float)time;
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition;
 @end

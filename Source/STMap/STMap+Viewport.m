@@ -10,6 +10,8 @@
 //
 
 #import "STMap+Viewport.h"
+#import "STLayer.h"
+#import "SPImage.h"
 
 @implementation STMap (viewport)
 - (void)centerViewToX:(float)x y:(float)y {
@@ -96,4 +98,73 @@
 	}
 }
 
+- (void)zoomViewToRate:(float)rate {
+	[self zoomViewToRate:rate inBounds:NO];
+}
+
+- (void)zoomViewToRate:(float)rate inBounds:(BOOL)inBounds {
+	for (id key in mLayers) {
+		[[mLayers objectForKey:key] zoomViewToRate:rate inBounds:inBounds];
+	}
+}
+
+- (void)zoomViewByRate:(float)rate {
+	[self zoomViewByRate:rate inBounds:NO];
+}
+
+- (void)zoomViewByRate:(float)rate inBounds:(BOOL)inBounds {
+	for (id key in mLayers) {
+		[[mLayers objectForKey:key] zoomViewByRate:rate inBounds:inBounds];
+	}
+}
+
+- (void)setZoom:(float)zoom {
+	[self zoomViewToRate:zoom];
+}
+
+- (float)zoom {
+	id key = [[mLayers allKeys] objectAtIndex:0];
+	if (key) {
+		STLayer *layer = (STLayer *)[mLayers objectForKey:key];
+		return layer.image.scaleX;
+	} else {
+		return 0;
+	}
+}
+
+- (void)zoomTweenViewToRate:(float)rate {
+	[self zoomTweenViewToRate:rate inBounds:NO time:0.5f transition:@"linear"];
+}
+
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds {
+	[self zoomTweenViewToRate:rate inBounds:inBounds time:0.5f transition:@"linear"];
+}
+
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds time:(float)time {
+	[self zoomTweenViewToRate:rate inBounds:inBounds time:time transition:@"linear"];
+}
+
+- (void)zoomTweenViewToRate:(float)rate inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
+	for (id key in mLayers) {
+		[[mLayers objectForKey:key] zoomTweenViewToRate:rate inBounds:inBounds time:time transition:transition];
+	}
+}
+
+- (void)zoomTweenViewByRate:(float)rate {
+	[self zoomTweenViewByRate:rate inBounds:NO time:0.5f transition:@"linear"];
+}
+
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds {
+	[self zoomTweenViewByRate:rate inBounds:inBounds time:0.5f transition:@"linear"];
+}
+
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds time:(float)time {
+	[self zoomTweenViewByRate:rate inBounds:inBounds time:time transition:@"linear"];
+}
+
+- (void)zoomTweenViewByRate:(float)rate inBounds:(BOOL)inBounds time:(float)time transition:(NSString *)transition {
+	for (id key in mLayers) {
+		[[mLayers objectForKey:key] zoomTweenViewByRate:rate inBounds:inBounds time:time transition:transition];
+	}
+}
 @end

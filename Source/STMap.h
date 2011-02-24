@@ -39,6 +39,7 @@
 @property (nonatomic, assign, readonly) int pixelHeight;
 @property (nonatomic, assign, readonly) STTileset *tileset;
 @property (nonatomic, assign, readonly) NSMutableDictionary *layers;
+@property (nonatomic, assign) float zoom;
 
 - (id)initWithTMXFile:(NSString *)filename;
 + (STMap *)mapWithTMXFile:(NSString *)filename;

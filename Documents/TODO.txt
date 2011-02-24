@@ -3,3 +3,4 @@
 == Version: 0.0.3       ==
 ==========================
 - fix "failed to create frame buffer for render texture" error message when running with a retina device.
+- fix zoom tween repositioning

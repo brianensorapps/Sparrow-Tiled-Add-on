@@ -24,10 +24,13 @@
 	mMap = [[STMap alloc] initWithTMXFile:@"sewers.tmx"];
 	mTopLayer = [mMap layerByName:@"top"];
 	mBottomLayer = [mMap layerByName:@"bottom"];
+	//[mTopLayer zoomViewToRate:2.0f];
+	//[mBottomLayer zoomViewToRate:2.0f];
 	
 	[mScreen addChild:mBottomLayer];
 	[mScreen addChild:mTopLayer];
 	
+	[mMap centerViewToX:100 y:100 inBounds:NO];
 	[self addEventListener:@selector(onTouch:) atObject:self forType:SP_EVENT_TYPE_TOUCH];
 }
 
@@ -50,7 +53,10 @@
 		if (mIsPanning) { mIsPanning = NO; return; }
 		
 		SPPoint *touchUpPosition = [touchUp locationInSpace:mBottomLayer];
-		[mMap scrollViewToX:touchUpPosition.x y:touchUpPosition.y];
+		//[mMap scrollViewToX:touchUpPosition.x y:touchUpPosition.y];
+		NSLog(@"zoom:%f", mMap.zoom);
+		[mTopLayer zoomTweenViewByRate:0.1];
+		[mBottomLayer zoomTweenViewByRate:0.1];
 	}
 }
 

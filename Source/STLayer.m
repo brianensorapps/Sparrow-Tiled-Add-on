@@ -33,6 +33,8 @@
 @synthesize pixelWidth = mPixelWidth;
 @synthesize pixelHeight = mPixelHeight;
 @synthesize tiles = mTiles;
+@synthesize image = mImage;
+@synthesize zoom;
 
 - (id)initWithName:(NSString *)name width:(int)width height:(int)height gids:(NSMutableArray *)gids tileset:(STTileset *)tileset {
 	if (self = [super init]) {
